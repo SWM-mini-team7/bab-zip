@@ -7,12 +7,12 @@ import java.time.LocalDateTime;
 @Getter
 
 public class PartySummary {
-    private Long id;
-    private String title;
-    private String menu;
-    private Integer maxMemberCount;
-    private Integer currentMemberCount;
-    private LocalDateTime meetingTime;
+    private final Long id;
+    private final String title;
+    private final String menu;
+    private final Integer maxMemberCount;
+    private final Integer currentMemberCount;
+    private final LocalDateTime meetingTime;
 
     public PartySummary(Party party) {
         this.id = party.getId();
