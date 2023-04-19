@@ -11,7 +11,6 @@ import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserService;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 import org.springframework.security.web.SecurityFilterChain;
-import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 
 @Configuration
 @EnableWebSecurity
@@ -19,7 +18,7 @@ import org.springframework.security.web.authentication.AuthenticationSuccessHand
 public class SecurityConfig {
 
     private final OAuth2UserService<OAuth2UserRequest, OAuth2User> oAuthUserService;
-    private final AuthenticationSuccessHandler successHandler;
+    //private final AuthenticationSuccessHandler successHandler;
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {

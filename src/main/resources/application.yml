@@ -15,9 +15,15 @@ spring:
       client:
         registration:
           kakao:
-            client-id:
+            client-id: e1997d2aaa765e06b3d2960348cfed54
             client-name: Kakao
-            redirect-uri:
+            redirect-uri: "{baseUrl}/{action}/oauth2/code/{registrationId}"
             client-authentication-method: POST
             authorization-grant-type: authorization_code
-            scope: profile_nickname, profile_image, account_email
+            scope: profile_nickname
+        provider:
+          kakao:
+            authorization_uri: https://kauth.kakao.com/oauth/authorize
+            token_uri: https://kauth.kakao.com/oauth/token
+            user-info-uri: https://kapi.kakao.com/v2/user/me
+            user_name_attribute: id
