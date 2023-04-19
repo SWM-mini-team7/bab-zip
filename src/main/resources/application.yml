@@ -9,3 +9,15 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+  security:
+    oauth2:
+      client:
+        registration:
+          kakao:
+            client-id:
+            client-name: Kakao
+            redirect-uri:
+            client-authentication-method: POST
+            authorization-grant-type: authorization_code
+            scope: profile_nickname, profile_image, account_email
