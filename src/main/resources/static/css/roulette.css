@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "nsr-eb";
+    src: url(../../public/fonts/NanumSquareRoundEB.ttf);
+}
+
+@font-face {
+  font-family: "nsr-b";
+  src: url(../../public/fonts/NanumSquareRoundB.ttf);
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 15%;
+}
+
+body {
+  background: #f7f8fc;
+}
+
+canvas {
+  width: 70%;
+  transition: 2s;
+}
+
+.rotate, .reset {
+  background: #722FF3;
+  margin-top: 1rem;
+  padding: .8rem 1.8rem;
+  border: none;
+  border-radius: 20px;
+  transition: .2s;
+  cursor: pointer;
+
+  width: 70%;
+
+  font-family: "nsr-eb";
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+#food {
+  margin-top: 10%;
+
+  font-size: 50px;
+}
+
+#add-btn {
+  background: #722FF3;
+
+  margin-top: 3%;
+
+  font-family: "nsr-eb";
+  color: #FFFFFF;
+  font-size: 50px;
+
+  border-radius: 20px;
+
+  border: none;
+}
+
+#food, #add-btn {
+  width: 70%;
+}
+
+button:active {
+  background: #444;
+  color: #f9f9f9;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 50px;
+  border-radius: 5px;
+  background: #000;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 22;
+}

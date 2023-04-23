@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "nsr-eb";
+    src: url(../../public/fonts/NanumSquareRoundEB.ttf);
+}
+
+/* @font-face {
+    font-family: "nsr-b";
+    src: url(../../public/fonts/NanumSquareRoundB.ttf);
+} */
+
+/* @font-face {
+    font-family: "nsr-l";
+    src: url(../../public/fonts/NanumSquareRoundL.ttf);
+} */
+
+/* @font-face {
+    font-family: "nsr-r";
+    src: url(../../public/fonts/NanumSquareRoundR.ttf);
+} */
+
+/* Mobile */
+@media screen and (max-width: 991px) {
+    body {
+        background-color: #722FF3;
+    }
+
+    img {
+        width: 35%;
+    }
+
+    .logo {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .logo img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 40%;
+      }
+
+    .title {
+        font-family: "nsr-eb";
+        color: #FFFFFF;
+        font-size: 75px;
+    }
+
+    .sub-title {
+        font-family: "nsr-eb";
+        color: #FFFFFF;
+        font-size: 24px;
+    }
+
+    .logo img:last-child {
+        margin-top: 50px;
+        width: 70%;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #FFFFFF;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        width: 900px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #722FF3;
+    }
+
+    img {
+        width: 35%;
+    }
+
+    .logo {
+        text-align: center;
+        height: 100vh;
+    }
+
+    .logo img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 40%;
+      }
+
+    .title {
+        font-family: "nsr-eb";
+        color: #FFFFFF;
+        font-size: 75px;
+    }
+
+    .sub-title {
+        font-family: "nsr-eb";
+        color: #FFFFFF;
+        font-size: 24px;
+    }
+
+    .logo img:last-child {
+        margin-top: 50px;
+        width: 70%;
+    }
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "nsr-eb";
+    src: url(../../public/fonts/NanumSquareRoundEB.ttf);
+}
+
+.navbar{
+    background-color: #722FF3;
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.navbar img{
+    height: 100%;
+    vertical-align: middle;
+}
+
+.navbar #menu{
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar #menu li{
+    float: left;
+    margin-left: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-family: "nsr-eb";
+    font-size: 20px;
+}
