@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "nsr-eb";
+    src: url(../../public/fonts/NanumSquareRoundEB.ttf);
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 5%;
+}
+
+.profile{
+    background-color: #ffffff;
+    height: 80px;
+    padding-left: 5px;
+    padding-right: 30px;
+    margin-top: 10px;
+    width: 85%;
+
+}
+
+.profile #name{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.profile #profile-modify{
+    color:gray;
+    font-size: 32px;
+    padding-left: 150px;
+}
+.profile #회원탈퇴{
+    color:gray;
+    font-size: 32px;
+}
+.profile #tp{
+    color:gray;
+    font-size: 32px;
+}
+
+#text{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.캘린더 {
+    background-color: #ffffff;
+    height: 80px;
+    padding-left: 5px;
+    padding-right: 30px;
+    margin-top: 60px;
+    width: 85%;
+}

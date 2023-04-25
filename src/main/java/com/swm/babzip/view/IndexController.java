@@ -10,4 +10,9 @@ public class IndexController {
     public String onBoarding() {
         return "onBoarding";
     }
+
+    @GetMapping("mypage")
+    public String myPage() {
+        return "mypage";
+    }
 }

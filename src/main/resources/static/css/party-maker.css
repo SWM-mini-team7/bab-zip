@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "nsr-eb";
+    src: url(../../public/fonts/NanumSquareRoundEB.ttf);
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10%;
+}
+
+input[type="text"] {
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    font-family: "nsr-eb";
+    font-size: 20px;
+  }
+
+.user{
+    background-color: #ffffff;
+    height: 60px;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top:40px;
+    width: 85%;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.user img{
+    height: 100%;
+    vertical-align: middle;
+}
+.user input{
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 60px;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    font-family: "nsr-eb";
+    padding-top: 30px;
+}
+
+.menu-name{
+    background-color: #ffffff;
+    height: 60px;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top:40px;
+    width: 85%;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.menu-name img{
+    height: 100%;
+    vertical-align: middle;
+}
+.menu-name input{
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 70%;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 24px;
+    font-family: "nsr-eb";
+    padding-top: 30px;
+}
+
+.time {
+    background-color: #ffffff;
+    height: 60px;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top:40px;
+    width: 85%;
+    font-size: 32px;
+    font-weight: bolder;   
+}
+.time img{
+    height: 100%;
+    vertical-align: middle;
+}
+.time select{
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: "nsr-eb";
+    color: gray;
+}
+.area {
+    background-color: #ffffff;
+    height: 90%;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top:40px;
+    width: 85%;
+    font-size: 32px;
+    font-weight: bolder;
+}
+textarea{
+    background-color: #ffffff;
+    height: 600px;
+    padding-left: 5px;
+    padding-right: 30px;
+    padding-top: 5px;
+    margin-top:30px;
+    width: 85%;
+    font-size: 32px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+button[type="submit"] {
+    background-color: #722FF3;
+    height: 100px;
+    width: 90%;
+    margin-top:50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 40px;
+    font-family: "nsr-eb";
+    border-radius: 40px;
+
+}
